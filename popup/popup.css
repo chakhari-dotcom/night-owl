@@ -1,0 +1,10 @@
+body { width: 350px; margin:0; font-family: system-ui; background:#121212; color:#eee; }
+.container { padding: 16px; }
+h1 { text-align:center; color:#bb86fc; margin:0 0 20px; }
+button, select, input { 
+  width:100%; padding:12px; margin:8px 0; 
+  background:#1e1e1e; color:white; border:none; border-radius:8px; 
+}
+button:hover { background:#333; }
+.stats { margin-top:20px; font-size:14px; color:#aaa; }
+#reset-today { background:#d32f2f; }

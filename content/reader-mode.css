@@ -1,0 +1,20 @@
+.nightowl-reader, .nightowl-reader * {
+  background: #000 !important;
+  color: #e0e0e0 !important;
+  border-color: #333 !important;
+}
+.nightowl-reader img, .nightowl-reader video { opacity: 0.7 !important; }
+.nightowl-reader a { color: #8ab4f8 !important; }
+
+/* On garde seulement le contenu principal */
+.nightowl-reader header, .nightowl-reader nav, .nightowl-reader footer,
+.nightowl-reader aside, .nightowl-reader .ads, .nightowl-reader iframe {
+  display: none !important;
+}
+.nightowl-reader article, .nightowl-reader main {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+  padding: 40px !important;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Night Owl</h1>
+    
+    <button id="absolute-dark">Absolute Dark Mode</button>
+    <button id="reader-mode">Reader Mode (nuit)</button>
+    
+    <div class="section">
+      <h3>Daltonisme</h3>
+      <select id="colorblind">
+        <option value="none">Normal</option>
+        <option value="deuteranopia">Deutéranopie</option>
+        <option value="protanopia">Protanopie</option>
+        <option value="tritanopia">Tritanopie</option>
+      </select>
+    </div>
+    
+    <div class="section">
+      <h3>Limite quotidienne</h3>
+      <input type="number" id="daily-limit" min="1" max="10" value="4"> heures
+      <button id="reset-today">Reset aujourd’hui</button>
+    </div>
+    
+    <div class="stats">
+      <p>Aujourd’hui : <span id="today-time">0h00</span></p>
+      <p>Cette semaine : <span id="week-time">0h</span></p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
